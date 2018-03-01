@@ -1,0 +1,15 @@
+{
+  "name": "forum_parser",
+  "version": "1.0.0",
+  "description": "parser for rorum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gfirey",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^2.0.0",
+    "puppeteer": "^1.1.1"
+  }
+}
