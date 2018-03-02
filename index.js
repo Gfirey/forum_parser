@@ -78,7 +78,7 @@ const getAuthor = () => {
    const fs = require('fs');
 
    try {
-      fs.writeFile('./data.json', threads, ()=>{console.log(arguments)});
+      fs.writeFile('./data.json', JSON.stringify(threads), ()=>{console.log(arguments)});
       const parser = new Json2csvParser(opts);
       const csv = parser.parse(threads);
       fs.writeFile('./data.csv', csv, ()=>{console.log(arguments)});
